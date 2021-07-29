@@ -2,15 +2,15 @@ public class Main {
 
 public static void main(String[] args) {
 
-int sum_on_account = 100;
+int accountSum = 100;
 
-int sum_add = 2000;
+int addedSum = 2000;
 
 int bonus;
 
-if (sum_add > 1000) {
+if (addedSum > 1000) {
 
-bonus = sum_add / 100;
+bonus = addedSum / 100;
 
 } else {
 
@@ -18,11 +18,10 @@ bonus = 0;
 
 }
 
-int sum_total = sum_on_account + sum_add + bonus;
-
+int totalSum = accountSum + addedSum + bonus;
 
         System.out.println("Итоговая сумма:");
-        System.out.println(sum_total);
+        System.out.println(totalSum);
         System.out.println("Бонусные рубли:");
         System.out.println(bonus);
     }
